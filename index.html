@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Environmental Awareness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Environmental Awareness</h1>
+            <nav>
+                <ul>
+                    <li><a href="#climate-change">Climate Change</a></li>
+                    <li><a href="#pollution">Pollution</a></li>
+                    <li><a href="#renewable-energy">Renewable Energy</a></li>
+                    <li><a href="#conservation">Conservation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="climate-change" class="section">
+            <div class="container">
+                <h2>Climate Change</h2>
+                <p>Climate change is a global challenge caused by the accumulation of greenhouse gases in the atmosphere...</p>
+                <button onclick="showInfo('climate')">Learn More</button>
+                <p id="climate-info" style="display:none;">Climate change causes extreme weather, sea level rise, and affects biodiversity.</p>
+            </div>
+        </section>
+
+        <section id="pollution" class="section">
+            <div class="container">
+                <h2>Pollution</h2>
+                <p>Pollution is the introduction of harmful substances or products into the environment...</p>
+                <button onclick="showInfo('pollution')">Learn More</button>
+                <p id="pollution-info" style="display:none;">Pollution can be air, water, or land pollution, and it has severe health consequences.</p>
+            </div>
+        </section>
+
+        <section id="renewable-energy" class="section">
+            <div class="container">
+                <h2>Renewable Energy</h2>
+                <p>Renewable energy is energy that comes from natural resources that are constantly replenished...</p>
+                <button onclick="showInfo('energy')">Learn More</button>
+                <p id="energy-info" style="display:none;">Solar, wind, and hydropower are examples of renewable energy sources.</p>
+            </div>
+        </section>
+
+        <section id="conservation" class="section">
+            <div class="container">
+                <h2>Conservation</h2>
+                <p>Conservation is the protection and preservation of the natural environment...</p>
+                <button onclick="showInfo('conservation')">Learn More</button>
+                <p id="conservation-info" style="display:none;">Conserving resources helps ensure a sustainable future for generations to come.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Environmental Awareness. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
